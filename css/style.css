@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+h2{
+	color: rgb(173, 170, 170);
+	font-size: 24px;
+}
+span{
+	font-size: 27px;
+    color: black;
+    font-weight: 700;
+}
+#container{
+	width:100%;
+	height:100vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-family: 'Open Sans', sans-serif;
+	/* font-family: 'Roboto Condensed', sans-serif; */
+	/* font-family: 'Oxygen', sans-serif; */
+}
+.container-box{
+	width: 650px;
+    height: 480px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px #c5c1c1;
+    overflow: hidden;
+    position: relative;
+}
+.img{
+	background-image: url(../image/veeterzy1.jpg);
+	background-position: left bottom;
+	background-size: cover;
+	height:500px;
+	width:250px;
+	
+}
+.para1{
+	padding:40px 0 0 30px;
+	position: relative;
+}
+p{
+	padding-top: 25px;
+	font-size: 15px;
+	line-height: 26px;
+}
+.form{
+	padding-top: 30px;
+    line-height: 60px;
+}
+input{
+	height:40px;
+	width:270px;
+	border:none;
+	outline:none;
+	font-size:16px;
+	padding-bottom: 17px;
+	border-bottom: 1px solid lightgray;
+}
+.button {
+    margin-left: 200px;
+    padding: 14px 40px;
+    background-color: rgb(176,138,248);
+    color: white;
+    font-size: 17px;
+    border-radius: 25px;
+    border: none;
+	text-decoration: none;
+}
+.data {
+    padding: 0px 0 10px 20px;
+    font-size: 30px;
+    color: lightgray;
+}
+form .data a i{
+	font-size: 21px;
+    margin-right: 10px;
+	color: lightgray;
+}
+.logo .img1{
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    font-size: 45px;
+	color: cornsilk;
+}
+
+.para1 .footer {
+	font-size: 16px;
+	color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 25px;
+    right: 0;
+}
+.data i .fa-lock{
+	font-size: 25px;
+    margin-right: 10px;
+}
+.data .fa-lock {
+    margin-right: 13px;
+    font-size: 26px;
+}
